@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-main/nonlinear_curve_fitter.egg-info/PKG-INFO
-main/nonlinear_curve_fitter.egg-info/SOURCES.txt
-main/nonlinear_curve_fitter.egg-info/dependency_links.txt
-main/nonlinear_curve_fitter.egg-info/requires.txt
-main/nonlinear_curve_fitter.egg-info/top_level.txt
-tests/test_function_fitter.py
