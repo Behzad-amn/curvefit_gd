@@ -1,9 +1,9 @@
-# Multivariate Nonlinear Curve Fitting
+# Multivariate Nonlinear Gradient Descent Curve Fitting
 
-This package provides a multivariate nonlinear curve fitter that utilizes gradient descent for optimization. It is designed for solving complex curve-fitting problems where the relationship between input data and target variables is nonlinear. The package supports numerical gradient calculation by default but allows users to specify an analytical gradient function for more complex models to improve performance and precision.
+This package provides a multivariate nonlinear curve fitter that utilizes gradient descent for optimization based on mean square error. It is designed for solving complex curve-fitting problems where the relationship between input data and target variables is nonlinear. The package supports numerical gradient calculation by default but allows users to specify an analytical gradient function for more complex models to improve performance and precision.
 
 ## Features
-- **Flexible Model Definition**: Users can define their own model functions and gradients.
+- **Flexible Model Definition**: Users can define their own model functions and gradients (optional).
 - **Gradient Descent Optimization**: Automatically uses numerical gradients but can switch to analytical gradients when specified.
 - **Data Scaling**: Optional data scaling for more stable optimization.
 - **Customizable Learning Rate and Parameters**: Users can adjust the learning rate, decay factor, and other parameters to fine-tune the optimization process.
