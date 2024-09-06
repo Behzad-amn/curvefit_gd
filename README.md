@@ -12,7 +12,7 @@ This package provides a multivariate nonlinear curve fitter that utilizes gradie
 To install the package, use the following command:
 
 ```bash
-pip install <your-package-name>
+pip install nonlinear_curve_fitter
 ```
 
 ## How it works
