@@ -43,11 +43,11 @@ Example Gradient Terms:
 
 To minimize the loss function using gradient descent, the gradients of the model with respect to the coefficients are calculated as follows:
 
-The gradient with respect to $$\( c_0 \)$$ is:
+The gradient with respect to (c0) is:
 
 $$\frac{\partial f(x_1, x_2)}{\partial c_0} = e^{x_1}$$
 
-The gradient with respect to $$\( c_1 \)$$ is:
+The gradient with respect to (c1) is:
 
 $$\frac{\partial f(x_1, x_2)}{\partial c_1} = x_2^2$$
 
