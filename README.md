@@ -12,8 +12,15 @@ This package provides a multivariate nonlinear curve fitter that utilizes gradie
 To install the package, use the following command:
 
 ```bash
-pip install nonlinear_curve_fitter
+pip install curvefit_gd
 ```
+
+You can then import the FunctionFitter using the following command
+
+```bash
+from curvefit_gd import FunctionFitter
+```
+
 
 ## How it works
 
