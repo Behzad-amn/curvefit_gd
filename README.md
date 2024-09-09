@@ -41,7 +41,7 @@ def model_function(x, coefficients):
 ```
 Where x1, x2 are input features, and c0, c1 are the coefficients to be learned.
 
-### 2. Optionally Specify the Gradient Function:
+### 2. Specify the Gradient Function (Optional):
 
 For more complex models, you may want to provide your own gradient function to improve optimization accuracy.
 
@@ -74,10 +74,7 @@ After training, use the ```predict()``` method to generate predictions based on 
 
 ## Scaling Data
 
-It is highly recommended to scale your data for better stability in the optimization process. However, if you choose to scale your data, you must:
-
-- Use the same scaling parameters for any future input data, ideally through the predict() method.
-- If you choose not to scale your data, the coefficients will be easier to interpret but may result in less stable optimization.
+It is highly recommended to scale your data before using the curve fitter for better stability in the optimization process.
 
 
 ## Class and Methods
